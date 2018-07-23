@@ -28,7 +28,7 @@ let config = {
     db.ref('reviews/' + id).set({
       fullName: fullName.value,
       message: message.value
-    });s
+    });
   
     fullName.value = '';
     message.value  = '';
